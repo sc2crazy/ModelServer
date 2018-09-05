@@ -5,4 +5,4 @@ from .models import Descriptor
 class DescriptorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Descriptor
-        exclude = ["isPrivate", ]
+        exclude = ['isPrivate', 'timestamp', 'updated', ]
