@@ -10,6 +10,7 @@ media/*
 */migrations/*
 */__pycache__/*
 db.sqlite3
+*.pyc
 
 # C extensions
 *.so
