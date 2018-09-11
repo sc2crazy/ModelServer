@@ -8,6 +8,8 @@ media/*
 .jpg
 .png
 */migrations/*
+*/__pycache__/*
+db.sqlite3
 
 # C extensions
 *.so
